@@ -1,5 +1,19 @@
 [
   {
+    "styleId": "gdisuedhessenkooperationspartner",
+    "rules": [
+
+      {
+        "style":
+          {
+          "polygonStrokeColor": [225, 0, 25, 1],
+          "polygonStrokeWidth": 1,
+          "polygonFillColor": [225, 0, 25, 0.15]
+          }
+      }
+    ]
+  },
+  {
     "styleId": "location_eventlotse",
     "rules":
     [

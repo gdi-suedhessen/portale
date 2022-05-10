@@ -67,6 +67,18 @@
       "legend": false
     },
     {
+      "id" : "21",
+      "name" : "Kooperationsgebiet 2020",
+      "url" : "./resources/kooperationsgebiet.geojson",
+      "typ" : "GeoJSON",
+      "gfiAttributes" : {
+        "GEN": "Name"
+      },
+      "layerAttribution" : "nicht vorhanden",
+      "legendURL" : "",
+      "gfiTheme": "default"
+   },
+    {
       "id" : "1001",
       "name" : "Kindertageseinrichtungen Hochtaunuskreis harmonisiert",
       "url" : "https://www.gdi-inspireumsetzer.de/ows/services/org.11.8fc9c572-98e2-449b-bd00-1ae846381d74_wms",
