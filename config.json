@@ -118,11 +118,13 @@
 										{
 											"id": "1001",
 											"visibility": false,
-											"urlIsVisible": true
+											"urlIsVisible": true,
+											"name": "Hochtaunuskreis"
 										},
 										{
 											"id": "1002",
-											"visibility": false
+											"visibility": false,
+											"name": "Gemeinde Münster"
 										}
 									]	
 								},
@@ -132,11 +134,13 @@
 									"Layer": [						
 										{
 											"id": "1501",
-											"visibility": false
+											"visibility": false,
+											"name": "Hochtaunuskreis"
 										},
 										{
 											"id": "1502",
-											"visibility": false
+											"visibility": false,
+											"name": "Gemeinde Münster"
 										}
 									]	
 								}
@@ -153,7 +157,12 @@
 								"Layer": [
 									{
 										"id": "2001",
-										"Titel": "Winky war hier",
+										"name": "Hochtaunuskreis",
+										"visibility": false
+									}	,
+									{
+										"id": "2002",
+										"name": "Groß-Gerau",
 										"visibility": false
 									}									
 								]	
