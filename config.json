@@ -94,54 +94,74 @@
 		"Hintergrundkarten": {
 			"Layer": [
         {
-          "id": "111",
+          "id": "11",
           "visibility": false
         },
 		{
-			"id": "112",
+			"id": "12",
 			"visibility": true
 		  }
 			]
 		},
-		"Fachthemen": {		
+		"Fachdaten": {		
 			"Ordner":
 					[
 						{
 							"Titel": "Kindertageseinrichtungen",
 							"isFolderSelectable": false,
 							"Ordner":
-								[
-									{
-										"Titel": "harmonisiert",
-										"isFolderSelectable": true,
-										"Layer": [
-											{
-												"id": "201",
-												"visibility": true
-											},
-											{
-												"id": "202",
-												"visibility": true
-											}
-										]	
-									},
-									{
+							[
+								{
+									"Titel": "harmonisiert",
+									"isFolderSelectable": true,
+									"Layer": [
+										{
+											"id": "1001",
+											"visibility": false,
+											"urlIsVisible": true
+										},
+										{
+											"id": "1002",
+											"visibility": false
+										}
+									]	
+								},
+								{
 									"Titel": "INSPIRE",
 									"isFolderSelectable": true,
 									"Layer": [						
 										{
-											"id": "211",
+											"id": "1501",
 											"visibility": false
 										},
 										{
-											"id": "212",
+											"id": "1502",
 											"visibility": false
 										}
 									]	
-									}
-								]
+								}
+							]			
+					},
+					{
+						"Titel": "Gewerbe- und Industrieflächen",
+						"isFolderSelectable": false,
+						"Ordner":
+						[
+							{
+								"Titel": "harmonisiert",
+								"isFolderSelectable": true,
+								"Layer": [
+									{
+										"id": "2001",
+										"Titel": "Winky war hier",
+										"visibility": false
+									}									
+								]	
 							}
-					]
-				}					
+						]
+		
+					}		
+				]
+			}
 	}
 }
