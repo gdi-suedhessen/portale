@@ -112,9 +112,17 @@
         },
 		{
 			"id": "12",
-			"visibility": true
+			"visibility": false
 		  },
 		{
+			"id": "13",
+			"visibility": true
+		  },
+		  {
+			"id": "14",
+			"visibility": false
+		  },
+		{ 
 			"id": "21",
 			"visibility": true,
 			"styleId": "gdisuedhessenkooperationspartner"
