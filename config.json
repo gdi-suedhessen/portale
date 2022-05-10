@@ -1,0 +1,141 @@
+{
+	"Portalconfig": {
+    "treeType": "custom",
+		"searchBar": {
+			"komoot": {
+        "minChars": 3,
+        "serviceId": "11",
+        "limit": 20,
+        "lang": "de",
+        "lat": 49.9,
+        "lon": 8.7,
+        "bbox": "7.7,49.2,10.4,51.8"
+    },
+      "visibleVector": {},
+      "tree": {},
+			"startZoomLevel": 3,
+			"placeholder": "Suche nach: - Adresse - Aktiven WFS"
+		},
+		"mapView": {
+			"backgroundImage": "./resources/img/backgroundCanvas.jpeg",
+			"startCenter": [475766,5530197],
+			"extent": [390838.0, 5456330.0, 603546.4, 5734300.0],
+			"startZoomLevel": 5,
+			"epsg":"EPSG:25832",
+			"options":[
+				{"resolution":6163.50603635735,"scale":17471320.7509,"zoomLevel":0},
+				{"resolution":3081.753018178675,"scale":8735660.37545,"zoomLevel":1},
+				{"resolution":1540.8765090875736,"scale":4367830.18772,"zoomLevel":2},
+				{"resolution":770.4382545437868,"scale":2183915.09386,"zoomLevel":3},
+				{"resolution":385.2191272718934,"scale":1091957.54693,"zoomLevel":4},
+				{"resolution":192.6095636362995,"scale":545978.773466,"zoomLevel":5},
+				{"resolution":96.30478181814975,"scale":272989.386733,"zoomLevel":6},
+				{"resolution":48.15239090889848,"scale":136494.693366,"zoomLevel":7},
+				{"resolution":24.076195454519798,"scale":68247.3466832,"zoomLevel":8},
+				{"resolution":12.038097727259899,"scale":34123.6733416,"zoomLevel":9},
+				{"resolution":6.0190488636299495,"scale":17061.8366708,"zoomLevel":10},
+				{"resolution":3.0095244318149748,"scale":8530.9183354,"zoomLevel":11},
+				{"resolution":1.5047622159074874,"scale":4265.4591677,"zoomLevel":12},
+				{"resolution":0.7523811079537437,"scale":2132.72958385,"zoomLevel":13},
+				{"resolution":0.37619055397687184,"scale":1066.364791925,"zoomLevel":14},
+				{"resolution":0.18809527698843592,"scale":533.1823959625,"zoomLevel":15}]
+
+		},
+		"menu": {
+			"tree": {
+				"name": "Themen"
+			},
+			"tools": {
+				"name": "Werkzeuge",
+				"children": {
+					"gfi": {
+            "name": "Informationen abfragen",
+						"active": true
+					},
+					"coordToolkit": {
+						"name": "Koordinaten"
+					},
+					"measure": {
+						"name": "Strecke / Fläche messen"
+					},
+					"fileImport": {
+            			"name": "Datei Import"
+					},
+					"saveSelection": {
+						"name": "Auswahl speichern"
+					}
+				}
+			},
+			"legend": {
+				"name": "Legende"
+			},
+			"info": {
+				"name": "Informationen",
+				"children": {
+					"staticlinks": [
+						{
+							"name": "Masterportal",
+							"url": "https://masterportal.org"
+						}
+					]
+				}
+			}
+		},
+		"controls": {
+			"zoom": true,
+			"orientation": {
+				"zoomMode": "once"
+			},
+			"attributions": true,
+			"mousePosition": true
+		}
+	},
+	"Themenconfig": {
+		"Hintergrundkarten": {
+			"Layer": [
+        {
+          "id": "111",
+          "visibility": false
+        },
+		{
+			"id": "112",
+			"visibility": true
+		  }
+			]
+		},
+		"Fachdaten": {		
+			"Ordner":
+					[
+						{
+							"Titel": "Kindertagesstädten harmonisiert",
+							"isFolderSelectable": true,
+							"Layer": [
+								{
+									"id": "201",
+									"visibility": true
+								},
+								{
+									"id": "202",
+									"visibility": true
+								}
+							]	
+						},
+						{
+							"Titel": "Kindertagesstädten INSPIRE",
+							"isFolderSelectable": true,
+							"Layer": [						
+								{
+									"id": "211",
+									"visibility": false
+								},
+								{
+									"id": "212",
+									"visibility": false
+								}
+							]	
+						}
+					]
+			
+					}
+	}
+}
