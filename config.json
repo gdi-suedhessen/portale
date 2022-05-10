@@ -107,35 +107,41 @@
 			"Ordner":
 					[
 						{
-							"Titel": "Kindertagesstädten harmonisiert",
-							"isFolderSelectable": true,
-							"Layer": [
-								{
-									"id": "201",
-									"visibility": true
-								},
-								{
-									"id": "202",
-									"visibility": true
-								}
-							]	
-						},
-						{
-							"Titel": "Kindertagesstädten INSPIRE",
-							"isFolderSelectable": true,
-							"Layer": [						
-								{
-									"id": "211",
-									"visibility": false
-								},
-								{
-									"id": "212",
-									"visibility": false
-								}
-							]	
-						}
+							"Titel": "Kindertageseinrichtungen",
+							"isFolderSelectable": false,
+							"Ordner":
+								[
+									{
+										"Titel": "harmonisiert",
+										"isFolderSelectable": true,
+										"Layer": [
+											{
+												"id": "201",
+												"visibility": true
+											},
+											{
+												"id": "202",
+												"visibility": true
+											}
+										]	
+									},
+									{
+									"Titel": "INSPIRE",
+									"isFolderSelectable": true,
+									"Layer": [						
+										{
+											"id": "211",
+											"visibility": false
+										},
+										{
+											"id": "212",
+											"visibility": false
+										}
+									]	
+									}
+								]
+							}
 					]
-			
-					}
+				}					
 	}
 }
