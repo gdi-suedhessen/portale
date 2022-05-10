@@ -74,9 +74,22 @@
 				"children": {
 					"staticlinks": [
 						{
+							"name": "GDI Südhessen",
+							"url": "https://www.gdi-suedhessen.de"
+						},
+						{
+							"name": "GDI InspireUmsetzer",
+							"url": "https://www.gdi-inspireumsetzer.de/"
+						},
+						{
+							"name": "GDI Info Tour",
+							"url": "https://www.gdi-infotour.de"
+						},
+						{
 							"name": "Masterportal",
 							"url": "https://masterportal.org"
 						}
+						
 					]
 				}
 			}
