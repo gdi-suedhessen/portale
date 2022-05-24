@@ -169,7 +169,7 @@
       "name" : "Schulstandorte und Schulbezirke Kreis Bergstraße" ,
       "url" : "https://www.gdi-inspireumsetzer.de/ows/services/org.20.3f9a9961-3a53-48b4-8d4c-4067ac727d73_wms",
       "typ" : "WMS",
-      "layers" : ["Schulstandorte","Schulbezirke"],
+      "layers" : "Schulstandorte",
       "format" : "image/png",
       "version" : "1.3.0",
       "singleTile" : false,
