@@ -173,6 +173,32 @@
 								}
 							]			
 					},
+						{
+							"Titel": "Schulstandorte und Schulbezirke",
+							"isFolderSelectable": false,
+							"Ordner":
+							[
+								{
+									"Titel": "harmonisiert",
+									"isFolderSelectable": true,
+									"Layer": [
+										{
+											"id": "1101",
+											"visibility": false,
+											"urlIsVisible": true,
+											"name": "Kreis Bergstraße"
+										}
+									]	
+								},
+								{
+									"Titel": "INSPIRE",
+									"isFolderSelectable": true,
+									"Layer": [						
+
+									]	
+								}
+							]			
+					},
 					{
 						"Titel": "Gewerbe- und Industrieflächen",
 						"isFolderSelectable": false,
